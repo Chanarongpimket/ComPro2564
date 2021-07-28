@@ -1,0 +1,18 @@
+#7
+username = ('admin')
+password = int(1234)
+while True :
+  us = input('Enter username : ')
+  ps = int(input('Enter password : '))
+  if ps != password and  us == username :
+    print('Your password is wrong')
+  elif us != username and ps == password :
+    print('Your username is wrong')
+  elif us == username and ps == password : 
+    us_new = input('Enter your new username :')
+    ps_new = input('Enter your new password :')
+    break
+  else : 
+    print('your password and username is wrong!!!')
+print('Your new username : ',us_new)
+print('Your new password : ',ps_new)

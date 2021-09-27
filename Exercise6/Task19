@@ -1,0 +1,6 @@
+#19
+strl = 'w3resource'
+dic1 = {}
+for i in strl:
+  dic1[i] = strl.count(i)
+print(dic1)

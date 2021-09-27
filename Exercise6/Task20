@@ -1,0 +1,8 @@
+#20
+my_dic = {'a':500,'b':5874,'c':560,'d':400,'e':5874,'f':20,}
+x = sorted(my_dic.items(), key= lambda x: x[1], reverse= True)
+ans = []
+print(x)
+for i in range(3):
+ ans.append(x[i][0])
+print(ans)

@@ -1,0 +1,13 @@
+#4 
+sampleDict = {
+    'name': 'Kelly',
+    'age': 25,
+    'salary': 8000,
+    'city': 'New york'
+    }
+new_dic = {}
+for i in sampleDict:
+  if i == 'name' or i == 'salary':
+   new_dic[i] = sampleDict[i]
+
+print(new_dic)

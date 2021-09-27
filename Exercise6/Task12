@@ -1,0 +1,5 @@
+#12
+Dict = {0: 10, 1: 20}
+Dict2 = {2:30}
+Dict.update(Dict2)
+print(Dict)

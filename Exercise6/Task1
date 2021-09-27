@@ -1,0 +1,8 @@
+#1
+key = ['Ten','Twenty','Thirty'] #11111
+value = [10,20,30]
+test = {}
+for i in range(len(key)):
+ test[key[i]] = value[i]
+
+print(test)
